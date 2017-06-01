@@ -2,7 +2,7 @@
 
 Material Design风格，使用Rxjava，MVP快速开发框架，封装的RecyclerView，retrofit 2.0网络请求库，Fresco图片加载库，图片瀑布流和错位式布局。具有热门推荐、每日一笑、板块分类、一键下载图片、分享图片、收藏图片、设为桌面壁纸、设为锁屏壁纸。
 
-# Screenshot
+# Screenshot（3.6.0版本截图）
 
 ![1](http://img.wdjimg.com/mms/screenshot/e/22/40616abd669502c43a7c167f4461b22e_320_534.jpeg "")
 ![2](http://img.wdjimg.com/mms/screenshot/f/5e/c0763134833ab3bdb497f9e1346015ef_320_534.jpeg "")
