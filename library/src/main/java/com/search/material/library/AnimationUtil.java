@@ -1,8 +1,9 @@
 package com.search.material.library;
 
-import android.support.v4.view.ViewCompat;
-import android.support.v4.view.ViewPropertyAnimatorListener;
 import android.view.View;
+
+import androidx.core.view.ViewCompat;
+import androidx.core.view.ViewPropertyAnimatorListener;
 
 /**
  * Created by stadiko on 6/8/15.

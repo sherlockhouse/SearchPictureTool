@@ -1,24 +1,18 @@
 package com.example.administrator.searchpicturetool.user.download;
 
 import android.app.Activity;
-import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.net.Uri;
-import android.support.v4.view.PagerAdapter;
+
+import androidx.viewpager.widget.PagerAdapter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import com.example.administrator.searchpicturetool.R;
 import com.example.administrator.searchpicturetool.model.bean.DownloadImg;
-import com.example.administrator.searchpicturetool.widght.PhotoView;
 import com.example.administrator.searchpicturetool.widght.PinchImageView;
-import com.facebook.drawee.view.SimpleDraweeView;
 import com.jude.utils.JUtils;
 
-import java.io.File;
 import java.util.ArrayList;
 
 /**

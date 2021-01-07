@@ -6,7 +6,7 @@
     app:padding_status="true"
     app:status_color="@color/colorPrimaryDark"
     android:layout_height="match_parent">
-        <android.support.v7.widget.Toolbar
+        <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             app:layout_scrollFlags="scroll|enterAlways"
             android:layout_width="match_parent"
@@ -16,7 +16,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay"
 
             >
-        </android.support.v7.widget.Toolbar>
+        </androidx.appcompat.widget.Toolbar>
     <View
         android:layout_width="match_parent"
         android:layout_height="2dp"
@@ -96,7 +96,7 @@
             android:layout_marginLeft="32dp"
             android:text="接收推送" />
 
-        <android.support.v7.widget.SwitchCompat
+        <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/setting_switch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

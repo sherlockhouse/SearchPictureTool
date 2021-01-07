@@ -1,8 +1,8 @@
 package com.example.administrator.searchpicturetool.user.tip;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.GridLayoutManager;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.GridLayoutManager;
 
 import com.example.administrator.searchpicturetool.model.CollectSearchTipModel;
 import com.example.administrator.searchpicturetool.model.bean.CollectSearchTip;

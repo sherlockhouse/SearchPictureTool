@@ -1,7 +1,7 @@
 package com.example.administrator.searchpicturetool.joy;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.example.administrator.searchpicturetool.model.ImageJoyModel;
 import com.example.administrator.searchpicturetool.model.bean.ImageJoy;

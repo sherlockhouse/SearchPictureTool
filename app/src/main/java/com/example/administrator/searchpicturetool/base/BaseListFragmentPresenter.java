@@ -1,6 +1,6 @@
 package com.example.administrator.searchpicturetool.base;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.example.administrator.searchpicturetool.R;

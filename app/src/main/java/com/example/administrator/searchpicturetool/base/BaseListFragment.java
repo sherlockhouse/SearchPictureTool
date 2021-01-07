@@ -1,14 +1,13 @@
 package com.example.administrator.searchpicturetool.base;
 
-import android.support.design.widget.Snackbar;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.view.View;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.materialdialogs.Theme;
 import com.example.administrator.searchpicturetool.R;
 import com.example.administrator.searchpicturetool.config.Constant;
-import com.example.administrator.searchpicturetool.base.BaseListFragmentPresenter;
+import com.google.android.material.snackbar.Snackbar;
 import com.jude.beam.expansion.list.BeamListFragment;
 import com.jude.beam.expansion.list.ListConfig;
 

@@ -2,8 +2,8 @@ package com.example.administrator.searchpicturetool.user.collect;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.StaggeredGridLayoutManager;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.example.administrator.searchpicturetool.model.db.SqlModel;
 import com.example.administrator.searchpicturetool.model.bean.NetImage;

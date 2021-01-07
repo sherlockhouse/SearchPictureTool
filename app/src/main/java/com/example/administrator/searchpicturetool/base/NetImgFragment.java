@@ -1,16 +1,13 @@
 package com.example.administrator.searchpicturetool.base;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.administrator.searchpicturetool.config.Constant;
 import com.example.administrator.searchpicturetool.model.bean.NetImage;
-import com.example.administrator.searchpicturetool.base.NetImgListPresenter;
-import com.example.administrator.searchpicturetool.base.BaseListFragment;
-import com.example.administrator.searchpicturetool.base.NetImageListViewHolder;
 import com.jude.beam.bijection.RequiresPresenter;
 import com.jude.beam.expansion.list.ListConfig;
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;

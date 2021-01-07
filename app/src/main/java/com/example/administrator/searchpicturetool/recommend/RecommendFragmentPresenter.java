@@ -2,8 +2,8 @@ package com.example.administrator.searchpicturetool.recommend;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.GridLayoutManager;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
 
 import com.example.administrator.searchpicturetool.app.APP;
 import com.example.administrator.searchpicturetool.model.RecommendModel;

@@ -1,7 +1,7 @@
 package com.example.administrator.searchpicturetool.recommend;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.example.administrator.searchpicturetool.app.APP;
 import com.example.administrator.searchpicturetool.model.MoreRecommendModel;

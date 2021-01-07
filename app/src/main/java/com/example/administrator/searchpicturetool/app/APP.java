@@ -4,7 +4,6 @@ import android.app.Application;
 
 import com.example.administrator.searchpicturetool.config.FrescoConfig;
 import com.facebook.drawee.backends.pipeline.Fresco;
-import com.facebook.imagepipeline.core.ImagePipelineConfig;
 import com.jude.beam.Beam;
 import com.jude.utils.JFileManager;
 import com.jude.utils.JUtils;

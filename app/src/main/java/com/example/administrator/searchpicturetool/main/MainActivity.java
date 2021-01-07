@@ -3,15 +3,11 @@ package com.example.administrator.searchpicturetool.main;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.viewpager.widget.ViewPager;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -19,19 +15,19 @@ import android.widget.RelativeLayout;
 
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.example.administrator.searchpicturetool.R;
-import com.example.administrator.searchpicturetool.config.ShareConfig;
 import com.example.administrator.searchpicturetool.util.Utils;
 import com.example.administrator.searchpicturetool.recommend.BannerListActivity;
 import com.example.administrator.searchpicturetool.search.result.SearchResultActivity;
 import com.example.administrator.searchpicturetool.setting.SettingActivity;
 import com.example.administrator.searchpicturetool.user.UserActivity;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.navigation.NavigationView;
+import com.google.android.material.tabs.TabLayout;
 import com.jude.beam.bijection.RequiresPresenter;
 import com.jude.beam.expansion.BeamBaseActivity;
 import com.jude.utils.JUtils;
 import com.search.material.library.MaterialSearchView;
-import com.umeng.fb.FeedbackAgent;
-import com.umeng.message.PushAgent;
-import com.umeng.update.UmengUpdateAgent;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -70,19 +66,13 @@ public class MainActivity extends BeamBaseActivity<MainActivityPresenter> implem
         initSearchView();
         initAppBarSetting();
         initPush();
-        UmengUpdateAgent.forceUpdate(this);
         marginNavigationBar(fab);
 
 
     }
 
     public void initPush() {
-        FeedbackAgent agent = new FeedbackAgent(this);
-        agent.sync();
-        if (JUtils.getSharedPreference().getBoolean("shouldPush", true)) {
-            PushAgent mPushAgent = PushAgent.getInstance(this);
-            mPushAgent.enable();
-        }
+
     }
 
     public void setDrawerLayout() {
@@ -134,11 +124,7 @@ public class MainActivity extends BeamBaseActivity<MainActivityPresenter> implem
         getPresenter().goToUp(0);
     }
 
-    public void openShare() {
-        ShareConfig config = new ShareConfig();
-        config.init(this, this).openShare(this, false);
 
-    }
 
     @Override
     public void onBackPressed() {
@@ -194,8 +180,7 @@ public class MainActivity extends BeamBaseActivity<MainActivityPresenter> implem
             }
 
         } else if (id == R.id.nav_send) {
-            FeedbackAgent agent = new FeedbackAgent(this);
-            agent.startFeedbackActivity();
+
         }
         drawer.closeDrawer(GravityCompat.START);
         return true;

@@ -1,6 +1,6 @@
 package com.example.administrator.searchpicturetool.main;
 
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.FragmentManager;
 
 import com.example.administrator.searchpicturetool.R;
 import com.example.administrator.searchpicturetool.recommend.RecommendFragment;
